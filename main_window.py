@@ -30,6 +30,7 @@ class Window(object):
     def _create_window(self):
         self.window = tk.Tk()
         self.window.title("Kaan's Hash Identifier")
+        self.window.iconbitmap("logo.ico")
         self.window.geometry('350x380')
 
     def _create_widgets(self):
