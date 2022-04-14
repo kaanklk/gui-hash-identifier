@@ -1,6 +1,6 @@
-import window
+import main_window
 
 if __name__ == "__main__":
-    window.Window().show()
+    main_window.Window().show()
 else:
     print("Please run main.py first!")
