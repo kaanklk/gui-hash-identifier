@@ -18,7 +18,7 @@ class AboutWindow(object):
     def _create_window(self):
         self.aboutwindow = tk.Tk()
         self.aboutwindow.title("About")
-        self.aboutwindow.iconbitmap("logo.ico")
+        self.aboutwindow.iconbitmap("icons/logo.ico")
         self.aboutwindow.geometry('350x380')
 
     def _create_widgets(self):
