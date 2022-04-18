@@ -157,6 +157,31 @@ def compare_algorithms(hash):
     if len(hash) == len(size) and hash.isdigit() == False and hash.isalpha() == False and hash.isalnum() == True:
         algorithmlist.append("Whirlpool")
 
+    # RIPEMD-128
+    size = "86be7afa339d0fc7cfc785e72f578d33"
+    if len(hash) == len(size) and hash.isdigit() == False and hash.isalpha() == False and hash.isalnum() == True:
+        algorithmlist.append("RIPEMD-128")
+
+    # RIPEMD-169
+    size = "0bdc9d2d256b3ee9daae347be6f4dc835a467ffe"
+    if len(hash) == len(size) and hash.isdigit() == False and hash.isalpha() == False and hash.isalnum() == True:
+        algorithmlist.append("RIPEMD-169")
+
+    # RIPEMD-256
+    size = "f9333e45d857f5d90a91bab70a1eba0cfb1be4b0783c9acfcd883a9134692925"
+    if len(hash) == len(size) and hash.isdigit() == False and hash.isalpha() == False and hash.isalnum() == True:
+        algorithmlist.append("RIPEMD-256")
+
+    # RIPEMD-320
+    size = "ce78850638f92658a5a585097579926dda667a5716562cfcf6fbe77f63542f99b04705d6970dff5d"
+    if len(hash) == len(size) and hash.isdigit() == False and hash.isalpha() == False and hash.isalnum() == True:
+        algorithmlist.append("RIPEMD-320")
+
+    # Adler-32
+    size = "00620062"
+    if len(hash) == len(size) and hash.isdigit() == True:
+        algorithmlist.append("Adler-32")
+
     return algorithmlist
 
 
